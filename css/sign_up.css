@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.img {
+    padding-top: 30px;
+}
+.main-container {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    height: 100vh;
+    position: relative;
+    /* background-color: aqua; */
+}
+.tab {
+    display: grid;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.tab p {
+    display: block;
+    text-align: left;
+}
+.tab input {
+    display: block;
+    font-size: 15px;
+    padding-left: 17px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 90%;
+    background-color: #d5d8d6;
+    outline: none;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.app-color {
+    background-color: #FB6E3B;
+}
+.get-started {
+    width: 90%;
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: white;
+    margin-top: 25px;
+    font-size: 15px;
+    border-radius: 37px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image {
+    margin-top: 10px;
+}
+.image img {
+    background-color: #d5d8d6;
+    padding: 5px 10px;
+    width: 30px;
+    height: 40px;
+    border-radius: 23px;
+    margin: 0 3px;
+}
+.sign {
+    margin-top: 20px;
+}
+
+.login {
+    margin-top: 16px;
+}
+
+.login a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .main-container {
+        width: 90%;
+        margin: 0 auto;
+        position: static;
+    }
+
+    .sign {
+        margin-top: 50px;
+    }
+
+    .tab input {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 20px;
+        border-radius: 30px;
+    }
+    .tab p {
+        font-size: 18px;
+    }
+
+    .get-started {
+        width: 90%;
+        display: block;
+        padding: 15px 0;
+        text-decoration: none;
+        color: white;
+        margin-top: 25px;
+        font-size: 20px;
+        border-radius: 37px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sign h4 {
+        font-size: 20px;
+    }
+
+    .login h4 {
+        font-size: 20px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
